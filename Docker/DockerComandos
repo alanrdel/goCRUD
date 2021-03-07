@@ -1,9 +1,0 @@
-docker run --rm -p 5051:5432 --name pg_test postgresql
-docker run -p 5050:80 -e 'PGADMIN_DEFAULT_EMAIL=alandel@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=alandel' -d --link pg_test dpage/pgadmin4
-
-
-
-
-https://app.us1.signalfx.com
-
-k5JErcbCu6w8oNZ-UrF8JA
